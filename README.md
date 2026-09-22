@@ -76,20 +76,20 @@ curl http://localhost:8082/me \
 ```
 ---
 
-### 1주차 — 시크릿 스캔 (git 히스토리)
+##### 1주차 — 시크릿 스캔 (git 히스토리)
 
-### 2주차 — .gitignore / pre-commit / 브랜치 보호
+##### 2주차 — .gitignore / pre-commit / 브랜치 보호
 
-### 3주차 — CI 파이프라인 (빌드 + 시크릿 검사)
+##### 3주차 — CI 파이프라인 (빌드 + 시크릿 검사)
 
-### 4주차 — 컨테이너 이미지 보안 (Dockerfile / Trivy)
+##### 4주차 — 컨테이너 이미지 보안 (Dockerfile / Trivy)
 
-### 5주차 — GitHub Actions 워크플로우 보안
+##### 5주차 — GitHub Actions 워크플로우 보안
 
-### 6주차 — 의존성 공급망 (Dependabot / audit)
+##### 6주차 — 의존성 공급망 (Dependabot / audit)
 
-### 7주차 — JWT 서명 키 취약점 이해
+##### 7주차 — JWT 서명 키 취약점 이해
 
-### 8주차 — 서명 키 관리 / 주입 / 교체
+##### 8주차 — 서명 키 관리 / 주입 / 교체
 
-### 9주차 — 서비스 간 인증 (SPIFFE/SPIRE)
+##### 9주차 — 서비스 간 인증 (SPIFFE/SPIRE)
