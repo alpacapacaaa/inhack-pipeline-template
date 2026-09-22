@@ -2,12 +2,11 @@
 > 개발 파이프라인 보안(시크릿 관리, CI, 컨테이너 빌드, 의존성 공급망, 서명 키, 서비스 간 인증)을
 > 직접 고쳐 보며 배우기 위한 스터디용 템플릿입니다.
 
-# inhack-pipeline-template
+### inhack-pipeline-template
 
-작은 웹 애플리케이션을 예제로 삼아, 손으로 직접 고쳐 보며, 10주 동안 매주 보안 설정을 하나씩 붙여 나가는 스터디 템플릿입니다.
-이 레포를 템플릿으로 삼아 자신의 레포를 만든 뒤, 주차별 실습 결과를 커밋하면 10주 뒤 포트폴리오가 됩니다.
+작은 웹 애플리케이션을 예제로 삼아, 10주 동안 매주 보안 설정을 하나씩 붙여 나가는 템플릿입니다.
 
-## 서비스 구조
+### 서비스 구조
 
 세 개의 서비스로 이루어져 있습니다. 데이터베이스는 따로 두지 않고 각 서비스의 메모리에 저장합니다.
 
@@ -26,9 +25,9 @@
                           └──▶ auth-service (8081)  /health 확인
 ```
 
-## 실행 방법
+### 실행 방법
 
-### 1) docker compose 로 한 번에 실행
+#### 1) docker compose 로 한 번에 실행
 
 ```bash
 docker compose up --build
@@ -38,7 +37,7 @@ docker compose up --build
 - auth-service: http://localhost:8081/health
 - api-service: http://localhost:8082/health
 
-### 2) 직접 실행
+#### 2) 직접 실행
 
 터미널 세 개를 띄웁니다.
 
@@ -57,7 +56,7 @@ npm install
 npm run dev
 ```
 
-## 동작 확인 (curl)
+### 동작 확인 (curl)
 
 ```bash
 # 회원가입
